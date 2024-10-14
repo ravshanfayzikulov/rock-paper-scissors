@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Name</title>
+  </head>
+  <body>
+<input placeholder="Insert your name " class="input" onkeydown="
+print(event);">
+<button class="Submit-button" onclick="
+action();">Submit</button>
+<p class="text"></p>
+  </body>
+</html>
+<script>
+ function print(event){
+  if(event.key === 'Enter'){
+      action();
+    };
+ }
+ function action(){
+  let name = document.querySelector('input').value;
+ document.querySelector('.text').innerHTML = `Your name is ${name}`;
+ }
+ 
+</script>

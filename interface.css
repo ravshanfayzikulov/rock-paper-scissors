@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+} 
+.title{
+  font-weight: 700;
+  font-family: arial;
+}
+button{
+  height: 70px;
+  width: 70px;
+  border-radius: 200px;
+  border-style: solid;
+  border-color: white;
+  background-color: black;
+  border-width: 1px;
+}
+.result{
+  font-weight: 700;
+  font-family: arial;
+}
+.reset{
+  background-color: white;
+  border-radius: 1px;
+  height: 20px;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  font-weight: 500;
+}
+.reset:hover{
+  opacity: 0.8;
+}
+img{
+  height: 45px;
+  align-items: center;
+}
+.container{
+  text-align: center;
+  transform: scale(2.8);
+}
